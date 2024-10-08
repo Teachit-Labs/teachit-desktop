@@ -1,4 +1,5 @@
 // styles are exported to tailwind.config.ts
+
 const primary = {
   900: "#100431",
   800: "#1A0C43",
