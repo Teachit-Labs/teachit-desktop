@@ -36,7 +36,7 @@ const tertiary = {
   100: "#FBFFEE",
   50: "#FEFFFA",
 } as const;
-const neutrals = {
+const neutral = {
   900: "#222222",
   800: "#3B3B3B",
   700: "#515151",
@@ -90,10 +90,10 @@ export default {
   primary,
   secondary,
   tertiary,
-  neutrals,
+  neutral,
   success,
   warning,
   error,
-  white: neutrals["0"],
-  black: neutrals["900"],
+  white: neutral["0"],
+  black: neutral["900"],
 };
