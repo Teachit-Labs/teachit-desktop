@@ -17,9 +17,9 @@ type ButtonProps = VariantProps<typeof button> &
   React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const Button = (props: ButtonProps) => {
-  const { children, color } = props;
+  const { children, color, className } = props;
   return (
-    <button className={button({ color })} {...props}>
+    <button className={button({ color, class: className })} {...props}>
       {children}
     </button>
   );

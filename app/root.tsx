@@ -9,17 +9,28 @@ import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
 
-// Work-sans font
+// Fonts
+import chromate from "./fonts/chromate/Chromate-Regular.ttf";
+import worksans from "./fonts/work-sans/WorkSans-VariableFont_wght.ttf";
+import worksansItalic from "./fonts/work-sans/WorkSans-Italic-VariableFont_wght.ttf";
 export const links: LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
+    rel: "stylesheet",
+    href: chromate,
+    as: "font",
+    type: "font/ttf",
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+    href: worksans,
+    as: "font",
+    type: "font/ttf",
+  },
+  {
+    rel: "stylesheet",
+    href: worksansItalic,
+    as: "font",
+    type: "font/ttf",
   },
 ];
 

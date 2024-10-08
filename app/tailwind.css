@@ -7,4 +7,21 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  
+}
+
+@font-face {
+  font-family: "Chromate";
+  src: url("/app/fonts/chromate/Chromate-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/app/fonts/work-sans/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/app/fonts/work-sans/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
 }
