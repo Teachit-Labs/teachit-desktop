@@ -47,6 +47,7 @@ const neutrals = {
   200: "#CFCFCF",
   100: "#E1E1E1",
   50: "#F7F7F7",
+  0: "#FFFFFF",
 } as const;
 const success = {
   900: "#064E3B",
@@ -93,6 +94,6 @@ export default {
   success,
   warning,
   error,
-  white: neutrals["50"],
+  white: neutrals["0"],
   black: neutrals["900"],
 };

@@ -27,21 +27,24 @@ export default {
     "1.313rem",
     { lineHeight: "2rem", letterSpacing: "0", fontWeight: "regular" },
   ],
+  // paragraph-1
   md: [
     "1.125rem",
     { lineHeight: "2rem", letterSpacing: "0", fontWeight: "regular" },
   ],
+  // paragraph-2
   sm: [
     "1rem",
     { lineHeight: "1.5rem", letterSpacing: "0", fontWeight: "regular" },
   ],
+  // paragraph-3
   xs: [
     "0.875rem",
     { lineHeight: "1.5rem", letterSpacing: "0", fontWeight: "regular" },
   ],
   subheading: [
     "0.875rem",
-    { lineHeight: "1.5rem", letterSpacing: "5%", fontWeight: "medium" },
+    { lineHeight: "1.5rem", letterSpacing: "5%", fontWeight: 500 },
   ],
 } as KeyValuePair<
   string,
