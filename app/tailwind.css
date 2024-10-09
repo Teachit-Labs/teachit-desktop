@@ -6,8 +6,16 @@ html,
 body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
-  }
-  
+  } 
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 @font-face {
@@ -24,4 +32,10 @@ body {
   font-family: "Work Sans";
   src: url("/app/fonts/work-sans/WorkSans-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
+}
+
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  src: url("/app/fonts/material-symbols/Material-Symbols-Variable.ttf") format("truetype");
 }

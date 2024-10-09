@@ -1,3 +1,9 @@
-// TODO
+interface IconProps {
+  name: "search";
+}
 
-export default {};
+const Icon: React.FC<IconProps> = ({ name }: IconProps) => {
+  return <span className="material-symbols-outlined">{name}</span>;
+};
+
+export default Icon;
