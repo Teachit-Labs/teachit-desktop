@@ -1,3 +1,5 @@
+// styles are exported to tailwind.config.ts
+
 export default {
   "box-shadow": {
     lg: "0px 32px 74px -12px rgba(16, 24, 40, 0.2)",

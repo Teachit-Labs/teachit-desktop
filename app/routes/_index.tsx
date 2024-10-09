@@ -1,5 +1,4 @@
 import { Link, useNavigate } from "@remix-run/react";
-import Icon from "~/components/atoms/icon";
 import Logo from "~/components/atoms/logo";
 import { button } from "~/components/molecules/button";
 import { input } from "~/components/molecules/input";

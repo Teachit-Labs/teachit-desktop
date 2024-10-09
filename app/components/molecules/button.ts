@@ -1,4 +1,5 @@
-// TODO
+// TODO: Add variants
+// TODO: Should this be a component?
 import { tv } from "tailwind-variants";
 
 export const button = tv({
